@@ -61,17 +61,17 @@ const Tarefa = ({
                 setEstaEditando(false)
               }}
             >
-              Salvar
+              SALVAR
             </S.BotaoSalvar>
             <S.BotaoCancelarRemover onClick={cancelarEdicao}>
-              Cancelar
+              CANCELAR
             </S.BotaoCancelarRemover>
           </>
         ) : (
           <>
-            <S.Botao onClick={() => setEstaEditando(true)}>Editar</S.Botao>
+            <S.Botao onClick={() => setEstaEditando(true)}>EDITAR</S.Botao>
             <S.BotaoCancelarRemover onClick={() => dispatch(remover(id))}>
-              Remover
+              REMOVER
             </S.BotaoCancelarRemover>
           </>
         )}

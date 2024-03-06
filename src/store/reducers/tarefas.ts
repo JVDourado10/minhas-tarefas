@@ -21,7 +21,7 @@ const TarefasSlice = createSlice({
         2
       ),
       new Tarefa(
-        'Estudar JavaScript',
+        'Estudar Bootstrap',
         enums.Prioridade.URGENTE,
         enums.Status.PENDENTE,
         'Praticar useEffect',
